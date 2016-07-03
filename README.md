@@ -1,5 +1,4 @@
-softALIGNF
-==========
+#ALIGNF+ (softALIGNF)
 
 This is a python implementation of soft ALIGNF, where the solution of ALIGNF
 is upper bounded. The detail can be refered to the following publication.

@@ -1,4 +1,4 @@
-# A python implementation of ALIGNF
+# A python implementation of ALIGNF+ (soft ALIGNF)
 # Author: Huibin Shen
 # 20.03.2015
 
@@ -22,22 +22,19 @@ def streamprinter(text):
 
 def ALIGNFSLACK(km_list, ky, CC):
     """
+    The kernels shoule be centered before calling the function.
+
     Parameters:
     -----------
     km_list, a list of kernel matrices, list of 2d array 
     ky, target kernel,  2d array
+    CC, double, upperbound of the solution
 
     Returns:
     --------
-    xx, the weight for each kernels
+    xx, the unnormalized weights for input kernels
     """
     n_feat = len(km_list)
-
-    #km_list_copy = []
-    # center the kernel first
-    #for i in range(n_feat):
-    #    km_list_copy.append(center(km_list[i].copy()))
-    #ky_copy = center(ky.copy())
 
     a = np.zeros(n_feat)
     for i in range(n_feat):

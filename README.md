@@ -23,6 +23,9 @@ The package contains several small datasets (no more than 2000 examples) used in
 the above publication. The original large image annotation datasets are taken 
 from the [paper](http://link.springer.com/article/10.1007/s11263-010-0338-6) and multi-class bioinformatics datasets are taken from the [paper](Multiclass multiple kernel learning).
 
+alignfSLACK.py is the soft ALGINF implementation where an upperbound should be provided
+by users.
+
 Handle label indpendently using SVM (svm_code folder)
 -----------------------------------------------------
 

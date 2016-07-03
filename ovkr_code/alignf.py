@@ -25,6 +25,8 @@ def streamprinter(text):
 
 def ALIGNF(km_list, ky):
     """
+    The kernels should be centered before calling.
+
     Parameters:
     -----------
     km_list, a list of kernel matrices, list of 2d array 
@@ -35,6 +37,7 @@ def ALIGNF(km_list, ky):
     xx, the weight for each kernels
     """
     n_feat = len(km_list)
+
     #km_list_copy = []
     # center the kernel first
     #for i in range(n_feat):

@@ -3,6 +3,8 @@
 This is a python implementation of soft ALIGNF, where the solution of ALIGNF
 is upper bounded. The detail can be refered to the following publication.
 
+Huibin Shen, Sandor Szedmak, Céline Brouard and Juho Rousu: [Soft Kernel Target Alignment for Two-stage Multiple Kernel Learning](http://www.springer.com/gp/book/9783319463063). In proceedings of Discovery Science 2016, Bari, Italy.
+
 Dependencies:
 =============
 
